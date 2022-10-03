@@ -19,6 +19,6 @@
                 <li>Contacts</li>
             </ul>
         </nav>
-        <?php include_once '/app/resources/views/pages/' .$page .'.php'?>
+        <?php include_once 'app/resources/views/pages/' .$page .'.php'?>
     </body>
 </html>
