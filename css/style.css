@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #79e2ff;
+    width: 100%;
+}
+a{
+    text-decoration-line: none;
+}
+a.siteName{
+    color: #ff8755 ;
+}
+h1{
+    padding: 3vh 0 0 2vw;
+}
+nav{
+    background-color: #436cff;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+}
+a.navigation{
+    color: #000000;
+    display: block;
+    height: 5vh;
+}
+.container{
+    font-size: large;
+    height: 100%;
+    width: 100%;
+    margin-left: 3vw;
+    text-align: center;
+    padding-top: 1vh;
+}
+.container:hover{
+    background-color: #1e337d;
+}
