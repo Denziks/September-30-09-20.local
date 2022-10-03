@@ -10,15 +10,15 @@
     </head>
     <body>
         <header>
-            <h1><?php echo SITE_NAME ?></h1>
+            <h1><a class="siteName" href="?action=index"><?php echo SITE_NAME ?></a></h1>
         </header>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Contacts</li>
-            </ul>
+            <a class="navigation" href="?action=index"><div class="container">Home</div></a>
+            <a class="navigation" href="?action=aboutUs"><div class="container">About Us</div></a>
+            <a class="navigation" href="?action=contacts"><div class="container">Contacts</div></a>
         </nav>
-        <?php include_once 'app/resources/views/pages/' .$page .'.php'?>
+        <main>
+            <?php include_once 'app/resources/views/pages/' .$page .'.php'?>
+        </main>
     </body>
 </html>
