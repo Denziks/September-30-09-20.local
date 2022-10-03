@@ -18,7 +18,9 @@
             <a class="navigation" href="?action=contacts"><div class="container">Contacts</div></a>
         </nav>
         <main>
-            <?php include_once 'app/resources/views/pages/' .$page .'.php'?>
+            <div id="content">
+                <?php include_once 'app/resources/views/pages/' .$page .'.php'?>
+            </div>
         </main>
     </body>
 </html>
