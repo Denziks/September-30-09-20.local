@@ -19,8 +19,21 @@ class Controller
     /**
      * rendering main page
      */
-    public function index(){
+    public function home(){
         $this -> view ->render('home');
     }
 
+    /**
+     * rendering contacts-page
+     */
+    public function contacts(){
+        $this -> view ->render('contacts');
+    }
+
+    /**
+     * rendering About Us page
+     */
+    public function aboutUs(){
+        $this -> view ->render('aboutUs');
+    }
 }
