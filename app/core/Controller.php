@@ -19,7 +19,7 @@ class Controller
     /**
      * rendering main page
      */
-    public function home(){
+    public function index(){
         $this -> view ->render('home');
     }
 
