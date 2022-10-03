@@ -37,3 +37,40 @@ a.navigation{
 .container:hover{
     background-color: #1e337d;
 }
+main{
+    width: 80%;
+    margin: auto;
+    background-color: #b8b6b5;
+    height: 87vh;
+}
+#content{
+    width: 90%;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    padding-bottom: 2vh;
+}
+h3{
+    padding-bottom: 2vh;
+}
+.text{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2vh
+}
+.text>p{
+    display: block;
+    margin-left: 2vw;
+}
+img{
+    width: 25%;
+    border: black 1vh solid;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+}
+.photos>img{
+    height: 200px;
+}
