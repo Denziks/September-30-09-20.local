@@ -20,17 +20,19 @@ nav{
     height: 5vh;
     display: flex;
     justify-content: flex-start;
+    border-bottom: solid 1vh #1e337d;;
 }
 a.navigation{
     color: #000000;
     display: block;
     height: 5vh;
+    width: 7vw;
+    margin-left: 3vw;
 }
 .container{
     font-size: large;
     height: 100%;
     width: 100%;
-    margin-left: 3vw;
     text-align: center;
     padding-top: 1vh;
 }
@@ -41,7 +43,7 @@ main{
     width: 80%;
     margin: auto;
     background-color: #b8b6b5;
-    height: 87vh;
+    height: 86vh;
 }
 #content{
     width: 90%;
