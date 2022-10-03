@@ -9,6 +9,6 @@ class View
      * @param string $template
      */
     public function render(string $page, string $template = TEMPLATE_DEFAULT){
-        include_once 'app/resource/views/templates/'.$template.'.php';
+        include_once 'app/resources/views/templates/' .$template .'.php';
     }
 }
