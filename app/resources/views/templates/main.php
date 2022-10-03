@@ -9,6 +9,16 @@
         <link href="/css/style.css" rel="stylesheet">
     </head>
     <body>
+        <header>
+            <h1><?php echo SITE_NAME ?></h1>
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contacts</li>
+            </ul>
+        </nav>
         <?php include_once '/app/resources/views/pages/' .$page .'.php'?>
     </body>
 </html>
